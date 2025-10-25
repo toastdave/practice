@@ -19,3 +19,11 @@ func TestHasDupe(t *testing.T) {
 		t.Errorf("boooo")
 	}
 }
+
+func TestHasDupeLong(t *testing.T) {
+	nums := []int{8, 2, 3, 3, 2, 2, 2, 3, 4, 4, 2, 2, 2, 3, 3, 3, 3}
+	hasDupe := ContainsDuplicate(nums)
+	if !hasDupe {
+		t.Errorf("boooo")
+	}
+}
