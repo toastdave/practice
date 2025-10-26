@@ -1,12 +1,17 @@
 package main
 
 func TwoSum(nums []int, target int) []int {
-	for i, iValue := range nums {
-		for j := i + 1; j < len(nums); j++ {
-			if iValue+nums[j] == target {
-				return []int{i, j}
-			}
+	prevMap := make(map[int]int)
+
+	for i, value := range nums {
+		diff := target - value
+
+		if j, found := prevMap[diff]; found {
+			return []int{i, j}
 		}
+
+		prevMap[value] = i
 	}
+
 	return []int{}
 }
