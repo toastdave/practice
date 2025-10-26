@@ -1,3 +1,3 @@
 # Valid Palindrome
 
-![Leetcode](https://leetcode.com/problems/valid-palindrome/)
+[Leetcode](https://leetcode.com/problems/valid-palindrome/)

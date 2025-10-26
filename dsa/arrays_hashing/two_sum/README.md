@@ -1,3 +1,3 @@
 # Two Sum
 
-![Leetcode](https://leetcode.com/problems/two-sum/description/)
+[Leetcode](https://leetcode.com/problems/two-sum/description/)

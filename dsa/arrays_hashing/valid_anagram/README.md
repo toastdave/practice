@@ -1,3 +1,3 @@
 # Valid Anagram
 
-![Leetcode](https://leetcode.com/problems/valid-anagram/)
+[Leetcode](https://leetcode.com/problems/valid-anagram/)
